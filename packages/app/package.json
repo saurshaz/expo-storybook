@@ -8,10 +8,13 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
+    "storybook": "start-storybook",
     "postinstall": "expo-yarn-workspaces postinstall"
   },
   "dependencies": {
-    "@my/ui": "1.0.0",
+    "@babel/core": "^7.10.1",
+    "@expo/webpack-config": "^0.12.11",
+    "@storybook/react": "^5.3.19",
     "expo": "~37.0.3",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
@@ -20,12 +23,11 @@
     "react-native-web": "~0.11.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
+    "babel-loader": "^8.1.0",
     "@expo/webpack-config": "^0.12.11",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.17",
     "babel-preset-expo": "~8.1.0",
-    "expo-yarn-workspaces": "^1.2.1",
     "typescript": "~3.8.3"
   },
   "private": true
