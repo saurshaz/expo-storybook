@@ -1,6 +1,5 @@
 # expo-storybook
 
-#jportela
 
 credits to  jportela / expo-storybook-workspace @jportela
 
